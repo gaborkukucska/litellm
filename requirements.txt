@@ -40,5 +40,6 @@ certifi==2023.7.22 # [TODO] clean up
 aiohttp==3.9.0 # for network calls
 aioboto3==12.3.0 # for async sagemaker calls
 tenacity==8.2.3  # for retrying requests, when litellm.num_retries set
-pydantic==2.7.1 # openai req. 
+pydantic>=1.10,<2.0
+# pydantic==2.7.1 # openai req. 
 ####
